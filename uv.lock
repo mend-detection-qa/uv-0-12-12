@@ -1,0 +1,96 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "certifi"
+version = "2024.2.2"
+source = { registry = "https://pypi.org/simple" }
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
+hash = "sha256:0569859f96c099554468010b2dbc7f5199282cf8c6c764a8e654f5abe9e69ee5"
+size = 164886
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl"
+hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+size = 163774
+
+[[package]]
+name = "charset-normalizer"
+version = "3.3.2"
+source = { registry = "https://pypi.org/simple" }
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz"
+hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558929f37d96c2f87bd13db6"
+size = 104744
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/2b/61/15678c55f4ef1c51b5bb6fda4dbd9a0f4771a07eb72cfe4f77d3fa31c2f5/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+hash = "sha256:8dcde92d9a37f310f428785c9b9d53e01b7b4c4e2cc1f9af04f91b2b8fdea75e"
+size = 140182
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/4f/fb/3d081f5a63de6dd9e2de7c01e9d03d2f7b3e7a8e62f81d74cdc21ae1c4f1/charset_normalizer-3.3.2-py3-none-any.whl"
+hash = "sha256:3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"
+size = 48543
+
+[[package]]
+name = "checksum-hash-pinning"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "requests" },
+]
+
+[[package]]
+name = "idna"
+version = "3.6"
+source = { registry = "https://pypi.org/simple" }
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz"
+hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
+size = 175426
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl"
+hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
+size = 61567
+
+[[package]]
+name = "requests"
+version = "2.31.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
+hash = "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
+size = 110794
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl"
+hash = "sha256:58cd2187ccab22d8efa7bc9ff07db7bd55fe9e7bdfd92a880a3f1c93cad3e2ff"
+size = 62574
+
+[[package]]
+name = "urllib3"
+version = "2.2.1"
+source = { registry = "https://pypi.org/simple" }
+
+[package.sdist]
+url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz"
+hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19"
+size = 291040
+
+[[package.wheels]]
+url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e001e7a3f896308c736ec887bf/urllib3-2.2.1-py3-none-any.whl"
+hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+size = 121067

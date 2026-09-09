@@ -1,0 +1,12 @@
+[project]
+name = "checksum-hash-pinning"
+version = "0.1.0"
+description = "Probe: uv.lock hash-pinning — exercises SHA-256 entries in sdist and wheel blocks"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0,<3.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

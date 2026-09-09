@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-09T17:02:09Z",
+  "packages": {
+    "certifi": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:0569859f96c099554468010b2dbc7f5199282cf8c6c764a8e654f5abe9e69ee5",
+        "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2024.2.2"
+    },
+    "charset-normalizer": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558929f37d96c2f87bd13db6",
+        "sha256:8dcde92d9a37f310f428785c9b9d53e01b7b4c4e2cc1f9af04f91b2b8fdea75e",
+        "sha256:3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "3.3.2"
+    },
+    "idna": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca",
+        "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "3.6"
+    },
+    "requests": {
+      "dependencies": [
+        "certifi",
+        "charset-normalizer",
+        "idna",
+        "urllib3"
+      ],
+      "group": "main",
+      "hashes": [
+        "sha256:942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1",
+        "sha256:58cd2187ccab22d8efa7bc9ff07db7bd55fe9e7bdfd92a880a3f1c93cad3e2ff"
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2.31.0"
+    },
+    "urllib3": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19",
+        "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2.2.1"
+    }
+  },
+  "pm": "uv",
+  "pm_version_tested": "0.4",
+  "pm_version_under_test": "0.12.12",
+  "project_metadata": {
+    "groups": [
+      "main"
+    ],
+    "python_constraint": ">=3.11"
+  },
+  "root": {
+    "dependencies": [
+      "requests"
+    ],
+    "name": "checksum-hash-pinning",
+    "version": "0.1.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "uv.lock",
+  "warnings": []
+}
